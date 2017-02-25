@@ -12,23 +12,31 @@ body{
 }
 
 
-/*#space:after{
-  content: "";
-  display: table;
-  clear: both;
-}*/
-
 #right-box{
-  /*max-width: 75%;*/
   margin-left: 5px;
-  /*position: relative;
-  left: 25%;*/
 }
 
-.experiences-box{
+.experiences-box, .studies-box{
   background-color: white;
 }
 
-.studies-box{
-  background-color: white;
+
+.propre{
+  clear: both;
+}
+
+h2{
+  margin: 0;
+}
+.legende{
+  text-align: center;
+}
+
+.picsize{
+   height: 225px;
+   width: 100%;
+}
+
+.experience ul{
+padding-left: calc(25% + 10px);
 }
